@@ -1,6 +1,11 @@
-def helloworld():
-	print ('Version 1.0')
-	print ('Hello World')
+import sys
+
+def helloworld(num):
+	
+	for i in range(num):
+	    print ('Hello World')
 
 if __name__ == '__main__':
-	helloworld()
+	helloworld(int(sys.argv[1]))
+
+
